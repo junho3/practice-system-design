@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T13:39:55.526Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="M5NwJY5eqWHguMcWIGk6" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T13:46:16.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uzyBl3G3lxRpweBbK1MQ" version="21.0.8" type="github">
   <diagram name="페이지-1" id="fZ0D24zakKTeXsBIbfj4">
     <mxGraphModel dx="1242" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -268,6 +268,9 @@
         </mxCell>
         <mxCell id="lod2hBOkV9UL_yvt2Dmq-20" value="요구사항에 따라 재입고 알람 PK만 존재하는 제로페이로드 형식으로 할 수도 있음&lt;br&gt;제로페이로드 형식일 경우, 상품재입고알람 발송 컨슈머에서 재입고 알람 PK로 재입고 데이터를 조회해야함&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="1030" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6BmctIkiOy6lu_JTkiso-1" value="재입고 알람 발송 과정에서 Failover 고민&lt;br&gt;&lt;br&gt;알수 없는 이유로 알람발송 컨슈머에서 계속 장애가 발생할 경우, DLQ에 메세지를 무한으로 발행하면서 카프카 장애로 확대될 수 있음&lt;br&gt;&lt;br&gt;따라서 DLQ 발행을 단일 토픽이 아니라 1~5번과 같이 제한된 DLQ 토픽을 운영하고, 5번 DLQ까지 처리가 실패한 것은 관리자가 수동으로 처리하는 방안이 있음" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1100" width="490" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
