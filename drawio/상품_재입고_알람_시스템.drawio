@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T13:31:13.350Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qS52qssLQQX2VBsqyEW6" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T13:34:01.272Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="H0_3yXo0ku1nM0cyjDJ5" version="21.0.8" type="github">
   <diagram name="페이지-1" id="fZ0D24zakKTeXsBIbfj4">
     <mxGraphModel dx="1242" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,10 +145,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sVdZr1kEb-Mcix8czJmq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7XAIl-xEh7DIo7LdumhO-46" target="7XAIl-xEh7DIo7LdumhO-43">
+        <mxCell id="sVdZr1kEb-Mcix8czJmq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7XAIl-xEh7DIo7LdumhO-46" target="7XAIl-xEh7DIo7LdumhO-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sVdZr1kEb-Mcix8czJmq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7XAIl-xEh7DIo7LdumhO-46" target="sVdZr1kEb-Mcix8czJmq-3">
+        <mxCell id="sVdZr1kEb-Mcix8czJmq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7XAIl-xEh7DIo7LdumhO-46" target="sVdZr1kEb-Mcix8czJmq-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P6en9wR6i65Uj4CdgG8a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7XAIl-xEh7DIo7LdumhO-46" target="P6en9wR6i65Uj4CdgG8a-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7XAIl-xEh7DIo7LdumhO-46" value="상품 재입고 알람 발송 컨슈머" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -221,20 +224,26 @@
         <mxCell id="7lklKGxvWgB5LxNq6Q4W-5" value="메세지 컨슈밍&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="790" y="810" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sVdZr1kEb-Mcix8czJmq-2" value="발송 처리 과정에서 에러 발생시 DLQ에 메세지 발행&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="685" y="920" width="280" height="30" as="geometry" />
+        <mxCell id="sVdZr1kEb-Mcix8czJmq-2" value="발송 처리 과정에서 에러 발생시 DLQ에 메세지 발행&lt;br&gt;알람 발송 누락 방지&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="685" y="915" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sVdZr1kEb-Mcix8czJmq-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="sVdZr1kEb-Mcix8czJmq-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="1160" y="820" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sVdZr1kEb-Mcix8czJmq-6" value="알람 발송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="sVdZr1kEb-Mcix8czJmq-6" value="알람 발송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1050" y="860" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sVdZr1kEb-Mcix8czJmq-7" value="상품번호" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="sVdZr1kEb-Mcix8czJmq-7" value="상품번호" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="195" y="815" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="sVdZr1kEb-Mcix8czJmq-9" value="&lt;div style=&quot;&quot;&gt;중복 메세지 발행에 대한 고민&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1. Redis를 두고 특정 TTL 동안 발송내역을 Redis에서 관리하여 Redis에 데이터가 존재할 경우 발송하지 않음&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2. 알람 발송 컨슈머를 최초 발송용과 재처리 발송용으로 나누고, 재처리 발송용에서 알람 발송 내역을 조회하여 발송되었는지 확인 후 처리&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="900" y="960" width="330" height="130" as="geometry" />
+        <mxCell id="sVdZr1kEb-Mcix8czJmq-9" value="&lt;div style=&quot;&quot;&gt;중복 메세지 발행에 대한 고민&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;1. Redis를 두고 특정 TTL 동안 발송내역을 Redis에서 관리하여 Redis에 데이터가 존재할 경우 발송하지 않음&lt;/div&gt;&lt;div style=&quot;&quot;&gt;2. 알람 발송 컨슈머를 최초 발송용과 재처리 발송용으로 나누고, 재처리 발송용에서 알람 발송 내역을 조회하여 발송되었는지 확인 후 처리&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="900" y="960" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P6en9wR6i65Uj4CdgG8a-1" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="620" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P6en9wR6i65Uj4CdgG8a-3" value="메세지 발행 체크" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="740" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
