@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T13:46:16.570Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="uzyBl3G3lxRpweBbK1MQ" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T13:46:47.192Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="iWy3EFV3LReba_9rhhDG" version="21.0.8" type="github">
   <diagram name="페이지-1" id="fZ0D24zakKTeXsBIbfj4">
     <mxGraphModel dx="1242" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -224,8 +224,8 @@
         <mxCell id="7lklKGxvWgB5LxNq6Q4W-4" value="재입고 알람 발송내역을 조회하여 발행되었는지 확인&lt;br&gt;&lt;br&gt;알람 발송 후 알람발송내역 테이블 저장" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="570" y="690" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7lklKGxvWgB5LxNq6Q4W-5" value="메세지 컨슈밍&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="790" y="810" width="100" height="30" as="geometry" />
+        <mxCell id="7lklKGxvWgB5LxNq6Q4W-5" value="메세지 컨슈밍&amp;nbsp;&lt;br&gt;메세지 양이 많으면 배치방식으로 컨슈밍" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="720" y="770" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sVdZr1kEb-Mcix8czJmq-2" value="발송 처리 과정에서 에러 발생시 DLQ에 메세지 발행&lt;br&gt;알람 발송 누락 방지&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="685" y="915" width="280" height="40" as="geometry" />
