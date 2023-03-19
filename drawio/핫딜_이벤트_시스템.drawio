@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T10:22:52.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="SbdzbVsAgFCu5MkHmoCd" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-19T10:26:01.991Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="rLYm9BIXrlGVsusH2jdk" version="21.0.8" type="github">
   <diagram name="페이지-1" id="THUsOuR64LjgHG88BtPO">
     <mxGraphModel dx="1242" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,6 +120,9 @@
         </mxCell>
         <mxCell id="VDb1RJbqHZAIUsTDeYEj-1" value="PG" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="980" y="155" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VDb1RJbqHZAIUsTDeYEj-3" value="핫딜 이벤트의 수량을 더 타이트하게 관리해야한다면, 티켓 서버를 두고, 고객에게 티켓을 발급하여 대기열을 만들고, 초당 처리할 수 있는 트래픽을 제한시키는 방법도 존재할 듯" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="635" width="260" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
