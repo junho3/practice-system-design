@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T03:03:14.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-_5Cre9-Y6ExTgQuVSpu" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-19T03:16:58.477Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="nxhjC_dPgX1t0ho1vSo7" version="21.0.8" type="github">
   <diagram name="페이지-1" id="THUsOuR64LjgHG88BtPO">
     <mxGraphModel dx="1242" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,6 +6,42 @@
         <mxCell id="1" parent="0" />
         <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-1" value="&lt;h1&gt;핫딜 이벤트 시스템&lt;/h1&gt;&lt;p&gt;순식간에 트래픽이 집중 몰리는 환경을 처리해야한다.&lt;/p&gt;&lt;p&gt;고객은 특정 기간동안 판매되는 핫딜 상품을 구매할 수 있다.&lt;/p&gt;&lt;p&gt;재고가 모두 소진되면 이벤트는 종료된다.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="120" width="340" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NrB0Wtn4uWU9AvgZ2HFs-2" target="NrB0Wtn4uWU9AvgZ2HFs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NrB0Wtn4uWU9AvgZ2HFs-3" target="NrB0Wtn4uWU9AvgZ2HFs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-3" value="App / Web&lt;br&gt;(Front)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="360" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NrB0Wtn4uWU9AvgZ2HFs-5" target="NrB0Wtn4uWU9AvgZ2HFs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NrB0Wtn4uWU9AvgZ2HFs-5" target="NrB0Wtn4uWU9AvgZ2HFs-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-5" value="Hot deal Event Api" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="640" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-7" value="핫딜 이벤트&lt;br&gt;Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="650" y="360" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-9" value="실시간 상품 재고 조회&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="465" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-10" value="핫딜 페이지 진입&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="560" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-11" value="핫딜 상품 구매" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="560" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-13" value="주문 API" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="880" y="520" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
