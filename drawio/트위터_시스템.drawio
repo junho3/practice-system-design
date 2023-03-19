@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T10:34:51.112Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.8" etag="jisyjl8OLPT0zu6S9-45" type="github"><diagram name="페이지-1" id="3cyPW3B-_8MfhEqSDBMf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-19T10:40:42.398Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="MaVpu3hydaIvlfPA1vcG" version="21.0.8" type="github">
+  <diagram name="페이지-1" id="3cyPW3B-_8MfhEqSDBMf">
+    <mxGraphModel dx="1242" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JeminxpXoIsaTH-0kqTq-1" value="&lt;h1&gt;트위터&lt;/h1&gt;&lt;p&gt;고가용성&lt;/p&gt;&lt;p&gt;작성한 메세지가 반드시 실시간일 필요는 없을 듯?&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JeminxpXoIsaTH-0kqTq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JeminxpXoIsaTH-0kqTq-3" target="JeminxpXoIsaTH-0kqTq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JeminxpXoIsaTH-0kqTq-3" value="App / Web&lt;br&gt;(Front)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JeminxpXoIsaTH-0kqTq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JeminxpXoIsaTH-0kqTq-6" target="JeminxpXoIsaTH-0kqTq-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JeminxpXoIsaTH-0kqTq-6" value="Tweet Api" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="960" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JeminxpXoIsaTH-0kqTq-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JeminxpXoIsaTH-0kqTq-8" target="JeminxpXoIsaTH-0kqTq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JeminxpXoIsaTH-0kqTq-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JeminxpXoIsaTH-0kqTq-10" value="메세지 작성" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="525" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JeminxpXoIsaTH-0kqTq-12" value="RDS&lt;br&gt;(Write)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="520" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JeminxpXoIsaTH-0kqTq-14" value="RDS&lt;br&gt;(Read)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1211" y="640" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
