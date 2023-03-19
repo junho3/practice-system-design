@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T03:33:51.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ZjDbouIupttbwN8kGfnx" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-19T10:22:52.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="SbdzbVsAgFCu5MkHmoCd" version="21.0.8" type="github">
   <diagram name="페이지-1" id="THUsOuR64LjgHG88BtPO">
     <mxGraphModel dx="1242" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,6 +64,9 @@
         <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-16" value="쿠폰 / 적립금API" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="880" y="320" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="VDb1RJbqHZAIUsTDeYEj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NrB0Wtn4uWU9AvgZ2HFs-17" target="VDb1RJbqHZAIUsTDeYEj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-17" value="결제 API" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="980" y="320" width="80" height="80" as="geometry" />
         </mxCell>
@@ -82,8 +85,8 @@
         <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-28" value="주문 처리&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="770" y="530" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-29" value="핫딜 이벤트 Redis의 상품 수량과 재고 RDs / Redis의 상품 수량간 차이가 발생할 수 있음&lt;br&gt;&lt;br&gt;수량 불일치를 어떻게 해결할 것인가?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="560" y="190" width="190" height="100" as="geometry" />
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-29" value="핫딜상품 수량과 상품 수량은 다른 개념으로 생각함&lt;br&gt;맥북 100개가 있어도 핫딜로 30개만 판매할 수도 있으니깐&lt;br&gt;&lt;br&gt;핫딜 이벤트 Redis의 상품 수량과 재고 RDs / Redis의 상품 수량간 차이가 발생할 수 있음&lt;br&gt;&lt;br&gt;수량 불일치를 어떻게 해결할 것인가?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="170" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-30" value="고객이 주문(결제) 과정에서 화면을 이탈한다면?&lt;br&gt;핫딜 이벤트 Redis에서 차감한 재고가 증발되는 상황 발생" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1010" y="520" width="250" height="90" as="geometry" />
@@ -94,26 +97,29 @@
         <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-33" value="주문 완료 메세지 발행&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="930" y="635" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hMik_GF9KgFQ4EGa2ahF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hMik_GF9KgFQ4EGa2ahF-1" target="NrB0Wtn4uWU9AvgZ2HFs-31">
+        <mxCell id="hMik_GF9KgFQ4EGa2ahF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="hMik_GF9KgFQ4EGa2ahF-1" target="NrB0Wtn4uWU9AvgZ2HFs-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hMik_GF9KgFQ4EGa2ahF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="hMik_GF9KgFQ4EGa2ahF-1" target="NrB0Wtn4uWU9AvgZ2HFs-7">
+        <mxCell id="hMik_GF9KgFQ4EGa2ahF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" parent="1" source="hMik_GF9KgFQ4EGa2ahF-1" target="NrB0Wtn4uWU9AvgZ2HFs-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hMik_GF9KgFQ4EGa2ahF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="hMik_GF9KgFQ4EGa2ahF-1" target="NrB0Wtn4uWU9AvgZ2HFs-13">
+        <mxCell id="hMik_GF9KgFQ4EGa2ahF-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="hMik_GF9KgFQ4EGa2ahF-1" target="NrB0Wtn4uWU9AvgZ2HFs-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hMik_GF9KgFQ4EGa2ahF-1" value="Hot deal Event Consumer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="hMik_GF9KgFQ4EGa2ahF-1" value="Hot deal Event Consumer" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="710" y="690" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hMik_GF9KgFQ4EGa2ahF-4" value="재고차감" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hMik_GF9KgFQ4EGa2ahF-4" value="재고차감" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="640" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hMik_GF9KgFQ4EGa2ahF-5" value="남은 재고가 없을 경우 주문 취소 처리?&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hMik_GF9KgFQ4EGa2ahF-5" value="남은 재고가 없을 경우 주문 취소 처리?&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="570" y="700" width="130" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hMik_GF9KgFQ4EGa2ahF-7" value="주문취소처리" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hMik_GF9KgFQ4EGa2ahF-7" value="주문취소처리" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="790" y="590" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VDb1RJbqHZAIUsTDeYEj-1" value="PG" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="980" y="155" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
