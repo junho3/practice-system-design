@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T02:59:35.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.8" etag="Ddx2bLA3v3qaRMqeLobw" type="github"><diagram name="페이지-1" id="THUsOuR64LjgHG88BtPO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-19T03:03:14.846Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-_5Cre9-Y6ExTgQuVSpu" version="21.0.8" type="github">
+  <diagram name="페이지-1" id="THUsOuR64LjgHG88BtPO">
+    <mxGraphModel dx="1242" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NrB0Wtn4uWU9AvgZ2HFs-1" value="&lt;h1&gt;핫딜 이벤트 시스템&lt;/h1&gt;&lt;p&gt;순식간에 트래픽이 집중 몰리는 환경을 처리해야한다.&lt;/p&gt;&lt;p&gt;고객은 특정 기간동안 판매되는 핫딜 상품을 구매할 수 있다.&lt;/p&gt;&lt;p&gt;재고가 모두 소진되면 이벤트는 종료된다.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="340" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
