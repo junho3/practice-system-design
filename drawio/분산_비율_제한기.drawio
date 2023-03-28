@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-03-28T12:25:38.959Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.1" etag="q-Eq1GxFGIvMGdG4JDH6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-28T12:48:47.649Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="5ZJOvW5sPIaqmvp_MHP9" version="21.1.1" type="github">
   <diagram name="페이지-1" id="1JjsV8yNNbJJZ2Vvdy5i">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T_nizeQImnmfFoX5tlLi-1" value="&lt;h1&gt;분산 비율 제한기&lt;/h1&gt;&lt;p&gt;API 요청을 제한(스로틀링)하는 제한기를 구성한다&lt;/p&gt;&lt;p&gt;고가용성&lt;/p&gt;&lt;p&gt;빠른 응답 필요&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="330" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T_nizeQImnmfFoX5tlLi-2" target="T_nizeQImnmfFoX5tlLi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-2" value="Front" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T_nizeQImnmfFoX5tlLi-3" target="T_nizeQImnmfFoX5tlLi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-3" value="Front" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T_nizeQImnmfFoX5tlLi-4" target="T_nizeQImnmfFoX5tlLi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-4" value="Front" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-6" value="Gateway" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="350" y="360" width="90" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="T_nizeQImnmfFoX5tlLi-10" target="T_nizeQImnmfFoX5tlLi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-10" value="Beckend API" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="T_nizeQImnmfFoX5tlLi-11" target="T_nizeQImnmfFoX5tlLi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-11" value="Beckend API" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="T_nizeQImnmfFoX5tlLi-12" target="T_nizeQImnmfFoX5tlLi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-12" value="Beckend API" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="T_nizeQImnmfFoX5tlLi-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-19" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="365" y="860" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-21" value="1. 분산 비율 제한기를 어디에 둘 것인가?&lt;br&gt;1-1. Front에 구현하면, 사용자가 조작할 수 있음&lt;br&gt;1-2. Beckend에 구현하면, 모든 Beckend에 스로틀링을 구현해야하는 문제가 발생하고, 요청이 결국 Beckend까지 오기 때문에 의미가 없음&lt;br&gt;1-3. Front와 Beckend 사이에 Gateway를 두고, Gateway에서 요청을 제한하는게 가장 좋은 방법&lt;br&gt;&lt;br&gt;&lt;br&gt;2. 어떻게 구현할 것인가?&lt;br&gt;2-1. Gateway 서버의 인메모리를 사용하면, Gateway 서버마다 제한률이 일정하지 않기 때문에 정확하게 제한하기 어려움. 또한 오토스케일링 등으로 Gateway 서버가 기동하게 되면, 해당 서버의 인메모리는 초기화되있기 때문에 요청을 받아줌&lt;br&gt;2-2. Redis를 사용하면 중앙 집중형으로 모든 Gateway 서버에 대한 제한률을 일정하게 만들 수 있음. 하지만 Redis 싱글스레드이고, 요청이 몰릴 경우 SPOF의 위험이 있음. 물론 클러스터 구성을 통해 Redis를 확장하면 SPOF의 위험성을 낮출 수 있음. Redis를 호출해야하므로 미세한 네트워크 지연 발생&lt;br&gt;2-3. Gateway 서버의 인메모리와 Redis를 혼합하는 방식. Redis에서 전체 요청수와 제한률을 관리하고, Gateway 서버는 인메모리로 개별 요청수와 제한률을 관리함. 일정 주기마다 Redis에 요청수와 제한률을 동기화함. 동기화 주기를 짧게 하더라도 최적화하가 어려울 수 있음.&lt;br&gt;&lt;br&gt;&lt;br&gt;3. 알고리즘은 어떤 것을 사용할 것인가?&lt;br&gt;3-1. 버킷 알고리즘 : 분산환경에서 동시성 이슈가 발생할 수 있음&lt;br&gt;3-2. 고정윈도우 알고리즘 : 창 가장자리 시간대에 트래픽이 몰릴 경우 정확한 제한 불가능&lt;br&gt;3-3. 슬라이딩윈도우 로그 알고리즘 : sorted set을 활용함. 제한을 넘은 요청까지 Redis에 기록하기 때문에 메모리를 많이 사용함&lt;br&gt;3-4. 슬라이딩윈도우 알고리즘 :&amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="730" width="750" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=classicThin;endFill=1;" edge="1" parent="1" source="T_nizeQImnmfFoX5tlLi-19" target="T_nizeQImnmfFoX5tlLi-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="680" as="targetPoint" />
+            <mxPoint x="395" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_nizeQImnmfFoX5tlLi-22" value="일정 주기마다 동기화" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="730" width="70" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
